@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 1300px;
+}
+
+header {
+	width: 1000px;
+	outline: 1px solid red;
+	margin: 0 auto;
+}
+
+.img-logo, .text-logo {
+	display: inline-block;
+}
+
+.img-logo {
+	float: left;
+	margin: 10px;
+}
+
+.text-logo {
+	float: right;
+}
+.menu {
+	float: right;
+}
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	font-style:italic;
+	color: black;
+	padding: 10px;
+	margin-right: 20px;
+	border: 1px solid black;
+	border-radius: 25%;
+}
+
+.song 
